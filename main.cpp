@@ -1,7 +1,7 @@
 #include <QCoreApplication>
 #include<QDebug>
 #include<QTimer>
-
+/*
 int main(int argc, char *argv[])
 {
     QCoreApplication a(argc, argv);
@@ -25,4 +25,4 @@ int main(int argc, char *argv[])
     });// the block of code will only execute after two seconds and it moves line 27 even before 2 seconds
 
     return a.exec(); // starts the event loop
-}
+}*/
