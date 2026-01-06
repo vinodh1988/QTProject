@@ -8,7 +8,8 @@ CONFIG += c++17 cmdline
 
 SOURCES += \
         logs.cpp \
-        main.cpp
+        main.cpp \
+        qtypes.cpp
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
