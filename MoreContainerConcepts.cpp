@@ -1,7 +1,7 @@
 #include <QList>
 #include <QVector>
 #include <QDebug>
-
+/*
 int main() {
     QList<int> list;
     list << 1 << 2 << 3 << 4;
@@ -33,3 +33,4 @@ int main() {
 
     return 0;
 }
+*/

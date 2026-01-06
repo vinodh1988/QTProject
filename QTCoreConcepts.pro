@@ -9,6 +9,7 @@ CONFIG += c++17 cmdline
 SOURCES += \
         Containers.cpp \
         MoreContainerConcepts.cpp \
+        librarycaller.cpp \
         logs.cpp \
         main.cpp \
         qtypes.cpp
@@ -17,3 +18,6 @@ SOURCES += \
 qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
+
+HEADERS += \
+    operations.h
