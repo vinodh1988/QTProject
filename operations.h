@@ -1,6 +1,6 @@
 #ifndef OPERATIONS_H
 #define OPERATIONS_H
-
+#include<thread>
 #include<functional>
 #include<chrono>
 
@@ -16,7 +16,7 @@ auto sub = minus; //without lambda
 
 void tentimeCaller(std::function<void(void)> callback) {
     for(int i=0;i<10;i++){
-
+        std::this_thread::sleep_for(std::chrono::seconds(2));
         callback();
     }
 }
