@@ -3,7 +3,7 @@
 #include <QMetaMethod>
 #include <QDebug>
 #include <metaclass.h>
-
+/*
 int main() {
     MetaClass obj;
 
@@ -24,3 +24,4 @@ int main() {
 
     return 0;
 }
+*/

@@ -6,5 +6,8 @@ debug/librarycaller.o
 debug/logs.o
 debug/main.o
 debug/qtypes.o
+debug/sender.o
+debug/signaldemo.o
 debug/moc_device.o
 debug/moc_metaclass.o
+debug/moc_sender.o

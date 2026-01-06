@@ -14,7 +14,9 @@ SOURCES += \
         librarycaller.cpp \
         logs.cpp \
         main.cpp \
-        qtypes.cpp
+        qtypes.cpp \
+        sender.cpp \
+        signaldemo.cpp
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
@@ -24,4 +26,5 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 HEADERS += \
     device.h \
     metaclass.h \
-    operations.h
+    operations.h \
+    sender.h

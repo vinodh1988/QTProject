@@ -6,5 +6,8 @@ release/librarycaller.o
 release/logs.o
 release/main.o
 release/qtypes.o
+release/sender.o
+release/signaldemo.o
 release/moc_device.o
 release/moc_metaclass.o
+release/moc_sender.o
