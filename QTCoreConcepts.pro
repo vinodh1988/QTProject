@@ -8,6 +8,7 @@ CONFIG += c++17 cmdline
 
 SOURCES += \
         Containers.cpp \
+        MetaCall.cpp \
         MetaDemo.cpp \
         MoreContainerConcepts.cpp \
         librarycaller.cpp \
@@ -22,4 +23,5 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 
 HEADERS += \
     device.h \
+    metaclass.h \
     operations.h

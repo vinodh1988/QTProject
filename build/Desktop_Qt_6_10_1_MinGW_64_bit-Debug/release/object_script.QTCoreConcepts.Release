@@ -1,0 +1,10 @@
+release/Containers.o
+release/MetaCall.o
+release/MetaDemo.o
+release/MoreContainerConcepts.o
+release/librarycaller.o
+release/logs.o
+release/main.o
+release/qtypes.o
+release/moc_device.o
+release/moc_metaclass.o
