@@ -8,6 +8,7 @@ CONFIG += c++17 cmdline
 
 SOURCES += \
         Containers.cpp \
+        MoreContainerConcepts.cpp \
         logs.cpp \
         main.cpp \
         qtypes.cpp
