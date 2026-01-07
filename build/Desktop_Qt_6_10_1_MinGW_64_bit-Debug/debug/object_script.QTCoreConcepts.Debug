@@ -2,6 +2,7 @@ debug/Containers.o
 debug/MetaCall.o
 debug/MetaDemo.o
 debug/MoreContainerConcepts.o
+debug/blockingvsnonblocking.o
 debug/librarycaller.o
 debug/logs.o
 debug/main.o
@@ -9,6 +10,7 @@ debug/qtypes.o
 debug/sender.o
 debug/signaldemo.o
 debug/signalslotsintegrate.o
+debug/moc_buttonheader.o
 debug/moc_device.o
 debug/moc_metaclass.o
 debug/moc_sender.o

@@ -11,6 +11,7 @@ SOURCES += \
         MetaCall.cpp \
         MetaDemo.cpp \
         MoreContainerConcepts.cpp \
+        blockingvsnonblocking.cpp \
         librarycaller.cpp \
         logs.cpp \
         main.cpp \
@@ -25,6 +26,7 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
 
 HEADERS += \
+    buttonheader.h \
     device.h \
     metaclass.h \
     operations.h \

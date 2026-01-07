@@ -12,7 +12,7 @@ class Sensor : public QObject {
 public:
     void readValue() {
         qDebug() << "[Sensor] Reading value";
-        emit valueReady(42);
+        emit valueReady(42); //in direct connection immediatly the execution is blocked here are redirected to slot
         qDebug() << "[Sensor] Continuing after emit";
     }
 signals:
