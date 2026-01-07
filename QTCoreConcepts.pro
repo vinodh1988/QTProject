@@ -12,6 +12,7 @@ SOURCES += \
         MetaDemo.cpp \
         MoreContainerConcepts.cpp \
         blockingvsnonblocking.cpp \
+        broadcastdemo.cpp \
         librarycaller.cpp \
         logs.cpp \
         main.cpp \
@@ -26,6 +27,7 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
 
 HEADERS += \
+    broadcast.h \
     buttonheader.h \
     device.h \
     metaclass.h \
