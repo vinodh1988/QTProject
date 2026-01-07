@@ -8,6 +8,8 @@ debug/main.o
 debug/qtypes.o
 debug/sender.o
 debug/signaldemo.o
+debug/signalslotsintegrate.o
 debug/moc_device.o
 debug/moc_metaclass.o
 debug/moc_sender.o
+debug/moc_sensorsystem.o

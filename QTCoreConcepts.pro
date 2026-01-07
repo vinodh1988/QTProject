@@ -16,7 +16,8 @@ SOURCES += \
         main.cpp \
         qtypes.cpp \
         sender.cpp \
-        signaldemo.cpp
+        signaldemo.cpp \
+        signalslotsintegrate.cpp
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
@@ -27,4 +28,5 @@ HEADERS += \
     device.h \
     metaclass.h \
     operations.h \
-    sender.h
+    sender.h \
+    sensorsystem.h

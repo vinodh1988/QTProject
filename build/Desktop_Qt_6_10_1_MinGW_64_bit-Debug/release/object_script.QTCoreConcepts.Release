@@ -8,6 +8,8 @@ release/main.o
 release/qtypes.o
 release/sender.o
 release/signaldemo.o
+release/signalslotsintegrate.o
 release/moc_device.o
 release/moc_metaclass.o
 release/moc_sender.o
+release/moc_sensorsystem.o
