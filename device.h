@@ -18,6 +18,10 @@ public:
     {
         qDebug() << "Device started via meta-object system";
     }
+
+    ~Device() {
+        qDebug()<< " Device object is destroyed";
+    }
 };
 
 #endif // DEVICE_H

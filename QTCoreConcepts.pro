@@ -13,9 +13,11 @@ SOURCES += \
         MoreContainerConcepts.cpp \
         blockingvsnonblocking.cpp \
         broadcastdemo.cpp \
+        controller.cpp \
         librarycaller.cpp \
         logs.cpp \
         main.cpp \
+        memory.cpp \
         qtypes.cpp \
         sender.cpp \
         signaldemo.cpp \
@@ -29,8 +31,10 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 HEADERS += \
     broadcast.h \
     buttonheader.h \
+    controller.h \
     device.h \
     metaclass.h \
     operations.h \
+    plain.h \
     sender.h \
     sensorsystem.h

@@ -5,6 +5,8 @@
 #include <QDebug>
 #include <broadcast.h>
 
+
+/*
 int main(int argc, char *argv[]) {
     QCoreApplication app(argc, argv);
 
@@ -26,6 +28,8 @@ int main(int argc, char *argv[]) {
 
     return app.exec();
 }
+
+*/
 
 
 
