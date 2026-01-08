@@ -19,12 +19,14 @@ release/sender.o
 release/signaldemo.o
 release/signalslotsintegrate.o
 release/speedmain.o
+release/timermain.o
 release/moc_broadcast.o
 release/moc_buttonheader.o
 release/moc_car.o
 release/moc_controller.o
 release/moc_device.o
 release/moc_events.o
+release/moc_messagecontroller.o
 release/moc_metaclass.o
 release/moc_sender.o
 release/moc_sensorsystem.o

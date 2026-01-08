@@ -19,12 +19,14 @@ debug/sender.o
 debug/signaldemo.o
 debug/signalslotsintegrate.o
 debug/speedmain.o
+debug/timermain.o
 debug/moc_broadcast.o
 debug/moc_buttonheader.o
 debug/moc_car.o
 debug/moc_controller.o
 debug/moc_device.o
 debug/moc_events.o
+debug/moc_messagecontroller.o
 debug/moc_metaclass.o
 debug/moc_sender.o
 debug/moc_sensorsystem.o

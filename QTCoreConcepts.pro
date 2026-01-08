@@ -27,7 +27,8 @@ SOURCES += \
         sender.cpp \
         signaldemo.cpp \
         signalslotsintegrate.cpp \
-        speedmain.cpp
+        speedmain.cpp \
+        timermain.cpp
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
@@ -41,6 +42,7 @@ HEADERS += \
     controller.h \
     device.h \
     events.h \
+    messagecontroller.h \
     metaclass.h \
     objectprocess.h \
     operations.h \
