@@ -13,12 +13,14 @@ SOURCES += \
         MoreContainerConcepts.cpp \
         blockingvsnonblocking.cpp \
         broadcastdemo.cpp \
+        car.cpp \
         controller.cpp \
         eventexample.cpp \
         librarycaller.cpp \
         logs.cpp \
         main.cpp \
         memory.cpp \
+        propertydemo.cpp \
         qtypes.cpp \
         sender.cpp \
         signaldemo.cpp \
@@ -32,6 +34,7 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 HEADERS += \
     broadcast.h \
     buttonheader.h \
+    car.h \
     controller.h \
     device.h \
     events.h \
