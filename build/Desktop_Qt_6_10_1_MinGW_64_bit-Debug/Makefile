@@ -296,6 +296,8 @@ Makefile: ../../QTCoreConcepts.pro ../../../../QT/6.10.1/mingw_64/mkspecs/win32-
 		../../../../QT/6.10.1/mingw_64/mkspecs/features/resources_functions.prf \
 		../../../../QT/6.10.1/mingw_64/mkspecs/features/resources.prf \
 		../../../../QT/6.10.1/mingw_64/mkspecs/features/moc.prf \
+		../../../../QT/6.10.1/mingw_64/mkspecs/features/win32/opengl.prf \
+		../../../../QT/6.10.1/mingw_64/mkspecs/features/uic.prf \
 		../../../../QT/6.10.1/mingw_64/mkspecs/features/qmake_use.prf \
 		../../../../QT/6.10.1/mingw_64/mkspecs/features/file_copies.prf \
 		../../../../QT/6.10.1/mingw_64/mkspecs/features/testcase_targets.prf \
@@ -303,6 +305,8 @@ Makefile: ../../QTCoreConcepts.pro ../../../../QT/6.10.1/mingw_64/mkspecs/win32-
 		../../../../QT/6.10.1/mingw_64/mkspecs/features/yacc.prf \
 		../../../../QT/6.10.1/mingw_64/mkspecs/features/lex.prf \
 		../../QTCoreConcepts.pro \
+		../../../../QT/6.10.1/mingw_64/lib/Qt6Widgets.prl \
+		../../../../QT/6.10.1/mingw_64/lib/Qt6Gui.prl \
 		../../../../QT/6.10.1/mingw_64/lib/Qt6Core.prl \
 		../../../../QT/6.10.1/mingw_64/mkspecs/features/build_pass.prf
 	$(QMAKE) -o Makefile ..\..\QTCoreConcepts.pro -spec win32-g++ "CONFIG+=debug" "CONFIG+=qml_debug"
@@ -532,6 +536,8 @@ Makefile: ../../QTCoreConcepts.pro ../../../../QT/6.10.1/mingw_64/mkspecs/win32-
 ../../../../QT/6.10.1/mingw_64/mkspecs/features/resources_functions.prf:
 ../../../../QT/6.10.1/mingw_64/mkspecs/features/resources.prf:
 ../../../../QT/6.10.1/mingw_64/mkspecs/features/moc.prf:
+../../../../QT/6.10.1/mingw_64/mkspecs/features/win32/opengl.prf:
+../../../../QT/6.10.1/mingw_64/mkspecs/features/uic.prf:
 ../../../../QT/6.10.1/mingw_64/mkspecs/features/qmake_use.prf:
 ../../../../QT/6.10.1/mingw_64/mkspecs/features/file_copies.prf:
 ../../../../QT/6.10.1/mingw_64/mkspecs/features/testcase_targets.prf:
@@ -539,6 +545,8 @@ Makefile: ../../QTCoreConcepts.pro ../../../../QT/6.10.1/mingw_64/mkspecs/win32-
 ../../../../QT/6.10.1/mingw_64/mkspecs/features/yacc.prf:
 ../../../../QT/6.10.1/mingw_64/mkspecs/features/lex.prf:
 ../../QTCoreConcepts.pro:
+../../../../QT/6.10.1/mingw_64/lib/Qt6Widgets.prl:
+../../../../QT/6.10.1/mingw_64/lib/Qt6Gui.prl:
 ../../../../QT/6.10.1/mingw_64/lib/Qt6Core.prl:
 ../../../../QT/6.10.1/mingw_64/mkspecs/features/build_pass.prf:
 qmake: FORCE

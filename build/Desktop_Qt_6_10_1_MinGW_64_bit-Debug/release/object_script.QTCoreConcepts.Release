@@ -7,6 +7,7 @@ release/broadcastdemo.o
 release/car.o
 release/controller.o
 release/eventexample.o
+release/firstui.o
 release/librarycaller.o
 release/logs.o
 release/main.o

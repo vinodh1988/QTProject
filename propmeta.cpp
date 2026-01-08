@@ -2,7 +2,7 @@
 #include "temperaturesensor.h"
 #include "objectprocess.h"
 #include "car.h"
-
+/*
 int main(int argc, char *argv[])
 {
     QCoreApplication app(argc, argv);
@@ -17,4 +17,4 @@ int main(int argc, char *argv[])
     delete obj;
     return 0;
 }
-
+*/

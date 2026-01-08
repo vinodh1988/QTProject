@@ -1,4 +1,4 @@
-QT = core
+QT += core widgets
 
 CONFIG += c++17 cmdline
 
@@ -16,6 +16,7 @@ SOURCES += \
         car.cpp \
         controller.cpp \
         eventexample.cpp \
+        firstui.cpp \
         librarycaller.cpp \
         logs.cpp \
         main.cpp \

@@ -7,6 +7,7 @@ debug/broadcastdemo.o
 debug/car.o
 debug/controller.o
 debug/eventexample.o
+debug/firstui.o
 debug/librarycaller.o
 debug/logs.o
 debug/main.o
