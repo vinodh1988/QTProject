@@ -14,6 +14,7 @@ SOURCES += \
         blockingvsnonblocking.cpp \
         broadcastdemo.cpp \
         controller.cpp \
+        eventexample.cpp \
         librarycaller.cpp \
         logs.cpp \
         main.cpp \
@@ -33,6 +34,7 @@ HEADERS += \
     buttonheader.h \
     controller.h \
     device.h \
+    events.h \
     metaclass.h \
     operations.h \
     plain.h \

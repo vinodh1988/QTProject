@@ -5,6 +5,7 @@ release/MoreContainerConcepts.o
 release/blockingvsnonblocking.o
 release/broadcastdemo.o
 release/controller.o
+release/eventexample.o
 release/librarycaller.o
 release/logs.o
 release/main.o
@@ -17,6 +18,7 @@ release/moc_broadcast.o
 release/moc_buttonheader.o
 release/moc_controller.o
 release/moc_device.o
+release/moc_events.o
 release/moc_metaclass.o
 release/moc_sender.o
 release/moc_sensorsystem.o
