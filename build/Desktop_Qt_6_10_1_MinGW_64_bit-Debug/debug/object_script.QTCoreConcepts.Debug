@@ -18,6 +18,7 @@ debug/qtypes.o
 debug/sender.o
 debug/signaldemo.o
 debug/signalslotsintegrate.o
+debug/speedmain.o
 debug/moc_broadcast.o
 debug/moc_buttonheader.o
 debug/moc_car.o
@@ -27,4 +28,5 @@ debug/moc_events.o
 debug/moc_metaclass.o
 debug/moc_sender.o
 debug/moc_sensorsystem.o
+debug/moc_speedcontroller.o
 debug/moc_temperaturesensor.o

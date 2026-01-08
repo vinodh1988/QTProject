@@ -26,7 +26,8 @@ SOURCES += \
         qtypes.cpp \
         sender.cpp \
         signaldemo.cpp \
-        signalslotsintegrate.cpp
+        signalslotsintegrate.cpp \
+        speedmain.cpp
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
@@ -46,4 +47,5 @@ HEADERS += \
     plain.h \
     sender.h \
     sensorsystem.h \
+    speedcontroller.h \
     temperaturesensor.h
