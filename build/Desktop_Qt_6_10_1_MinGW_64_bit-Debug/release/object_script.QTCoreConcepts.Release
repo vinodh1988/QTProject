@@ -12,6 +12,7 @@ release/logs.o
 release/main.o
 release/memory.o
 release/propertydemo.o
+release/propmeta.o
 release/qtypes.o
 release/sender.o
 release/signaldemo.o
@@ -25,3 +26,4 @@ release/moc_events.o
 release/moc_metaclass.o
 release/moc_sender.o
 release/moc_sensorsystem.o
+release/moc_temperaturesensor.o

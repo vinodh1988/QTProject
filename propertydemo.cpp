@@ -3,7 +3,7 @@
 #include "car.h"
 #include <QVariant>
 
-
+/*
 int main(int argc, char *argv[])
 {
     QCoreApplication app(argc, argv);
@@ -28,3 +28,4 @@ int main(int argc, char *argv[])
 
     return 0;
 }
+*/

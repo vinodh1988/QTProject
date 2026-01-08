@@ -12,6 +12,7 @@ debug/logs.o
 debug/main.o
 debug/memory.o
 debug/propertydemo.o
+debug/propmeta.o
 debug/qtypes.o
 debug/sender.o
 debug/signaldemo.o
@@ -25,3 +26,4 @@ debug/moc_events.o
 debug/moc_metaclass.o
 debug/moc_sender.o
 debug/moc_sensorsystem.o
+debug/moc_temperaturesensor.o

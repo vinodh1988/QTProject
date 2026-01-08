@@ -21,6 +21,7 @@ SOURCES += \
         main.cpp \
         memory.cpp \
         propertydemo.cpp \
+        propmeta.cpp \
         qtypes.cpp \
         sender.cpp \
         signaldemo.cpp \
@@ -39,7 +40,9 @@ HEADERS += \
     device.h \
     events.h \
     metaclass.h \
+    objectprocess.h \
     operations.h \
     plain.h \
     sender.h \
-    sensorsystem.h
+    sensorsystem.h \
+    temperaturesensor.h
