@@ -16,10 +16,10 @@ int main(int argc, char* argv[]) {
     // Post a custom event after 1 second
     QTimer::singleShot(1000, [&](){
         qDebug() << "[Main] Posting custom event";
-        QCoreApplication::postEvent(&processor, new MyEvent(42));
+        QCoreApplication::postEvent(&processor, new MyEvent(42,&loop));
 
         // Quit local event loop after posting
-       // loop.quit();
+        //loop.quit();
     });
 
     // Run local event loop (blocks here until loop.quit())

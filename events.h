@@ -12,9 +12,12 @@ class MyEvent : public QEvent {
 public:
     static const QEvent::Type MyType = static_cast<QEvent::Type>(QEvent::User + 1);
 
-    MyEvent(int data)
-        : QEvent(MyType), data(data) {}
+    MyEvent(int data,QEventLoop* x)
+        : QEvent(MyType), data(data) {
+        loop=x;
+    }
     int data;
+    QEventLoop* loop;
 }; // your own event?  you have to extend EvenClass
 
 /* ---------- Event Processor ---------- */
@@ -25,6 +28,7 @@ protected:
         if (e->type() == MyEvent::MyType) {
             MyEvent* myEvent = static_cast<MyEvent*>(e);
             qDebug() << "[EventProcessor] Received custom event with data:" << myEvent->data;
+            myEvent->loop->quit();
             return true; // event handled
         }
         return QObject::event(e);
