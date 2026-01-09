@@ -23,6 +23,7 @@ SOURCES += \
         memory.cpp \
         propertydemo.cpp \
         propmeta.cpp \
+        qfileread.cpp \
         qtypes.cpp \
         sender.cpp \
         settings.cpp \

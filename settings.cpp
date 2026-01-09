@@ -1,7 +1,7 @@
 #include <QCoreApplication>
 #include <QSettings>
 #include <QDebug>
-
+/*
 int main(int argc, char* argv[]) {
     QCoreApplication app(argc, argv);
 
@@ -40,3 +40,4 @@ int main(int argc, char* argv[]) {
 
     return 0;
 }
+*/
