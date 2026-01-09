@@ -24,6 +24,7 @@ SOURCES += \
         propertydemo.cpp \
         propmeta.cpp \
         qfileread.cpp \
+        qfilewrite.cpp \
         qtypes.cpp \
         sender.cpp \
         settings.cpp \

@@ -15,6 +15,7 @@ debug/memory.o
 debug/propertydemo.o
 debug/propmeta.o
 debug/qfileread.o
+debug/qfilewrite.o
 debug/qtypes.o
 debug/sender.o
 debug/settings.o

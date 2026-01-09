@@ -2,7 +2,7 @@
 #include <QTextStream>
 #include <QDebug>
 #include <QFileInfo>
-
+/*
 int main() {
     QString filePath = "d://datafiles/store.txt";
     QFile file(filePath);
@@ -22,4 +22,4 @@ int main() {
 
     file.close();
     return 0;
-}
+}*/
