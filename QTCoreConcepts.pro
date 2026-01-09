@@ -33,7 +33,8 @@ SOURCES += \
         signaldemo.cpp \
         signalslotsintegrate.cpp \
         speedmain.cpp \
-        timermain.cpp
+        timermain.cpp \
+        xmlread.cpp
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin

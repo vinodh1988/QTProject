@@ -25,6 +25,7 @@ debug/signaldemo.o
 debug/signalslotsintegrate.o
 debug/speedmain.o
 debug/timermain.o
+debug/xmlread.o
 debug/moc_broadcast.o
 debug/moc_buttonheader.o
 debug/moc_car.o

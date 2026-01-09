@@ -5,7 +5,7 @@
 #include <QJsonValue>
 #include <QJsonArray>
 #include <QDebug>
-
+/*
 int main(int argc, char *argv[])
 {
     QCoreApplication a(argc, argv);
@@ -44,3 +44,4 @@ int main(int argc, char *argv[])
 
     return 0;
 }
+*/

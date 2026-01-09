@@ -25,6 +25,7 @@ release/signaldemo.o
 release/signalslotsintegrate.o
 release/speedmain.o
 release/timermain.o
+release/xmlread.o
 release/moc_broadcast.o
 release/moc_buttonheader.o
 release/moc_car.o
