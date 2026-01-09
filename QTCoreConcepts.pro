@@ -11,6 +11,7 @@ SOURCES += \
         MetaCall.cpp \
         MetaDemo.cpp \
         MoreContainerConcepts.cpp \
+        ThreadDemo.cpp \
         blockingvsnonblocking.cpp \
         broadcastdemo.cpp \
         car.cpp \
@@ -56,7 +57,8 @@ HEADERS += \
     sender.h \
     sensorsystem.h \
     speedcontroller.h \
-    temperaturesensor.h
+    temperaturesensor.h \
+    workers.h
 
 DISTFILES += \
     settings.ini

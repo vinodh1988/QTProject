@@ -2,6 +2,7 @@ debug/Containers.o
 debug/MetaCall.o
 debug/MetaDemo.o
 debug/MoreContainerConcepts.o
+debug/ThreadDemo.o
 debug/blockingvsnonblocking.o
 debug/broadcastdemo.o
 debug/car.o
@@ -38,3 +39,4 @@ debug/moc_sender.o
 debug/moc_sensorsystem.o
 debug/moc_speedcontroller.o
 debug/moc_temperaturesensor.o
+debug/moc_workers.o

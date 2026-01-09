@@ -6,7 +6,7 @@
 #include <QList>
 #include <QVector>
 #include <QDebug>
-
+/*
 struct Person {
     QString sno;
     QString name;
@@ -62,3 +62,4 @@ int main(int argc, char *argv[])
 
     return 0;
 }
+*/

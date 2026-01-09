@@ -2,6 +2,7 @@ release/Containers.o
 release/MetaCall.o
 release/MetaDemo.o
 release/MoreContainerConcepts.o
+release/ThreadDemo.o
 release/blockingvsnonblocking.o
 release/broadcastdemo.o
 release/car.o
@@ -38,3 +39,4 @@ release/moc_sender.o
 release/moc_sensorsystem.o
 release/moc_speedcontroller.o
 release/moc_temperaturesensor.o
+release/moc_workers.o
