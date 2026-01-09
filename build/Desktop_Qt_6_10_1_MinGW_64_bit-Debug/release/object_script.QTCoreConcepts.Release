@@ -16,6 +16,7 @@ release/propertydemo.o
 release/propmeta.o
 release/qfileread.o
 release/qfilewrite.o
+release/qtjson.o
 release/qtypes.o
 release/regularexp.o
 release/sender.o

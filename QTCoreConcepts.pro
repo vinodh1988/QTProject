@@ -25,6 +25,7 @@ SOURCES += \
         propmeta.cpp \
         qfileread.cpp \
         qfilewrite.cpp \
+        qtjson.cpp \
         qtypes.cpp \
         regularexp.cpp \
         sender.cpp \

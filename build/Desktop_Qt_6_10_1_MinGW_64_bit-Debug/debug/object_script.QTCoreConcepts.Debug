@@ -16,6 +16,7 @@ debug/propertydemo.o
 debug/propmeta.o
 debug/qfileread.o
 debug/qfilewrite.o
+debug/qtjson.o
 debug/qtypes.o
 debug/regularexp.o
 debug/sender.o
