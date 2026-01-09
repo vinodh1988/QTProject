@@ -25,6 +25,7 @@ SOURCES += \
         propmeta.cpp \
         qtypes.cpp \
         sender.cpp \
+        settings.cpp \
         signaldemo.cpp \
         signalslotsintegrate.cpp \
         speedmain.cpp \
@@ -51,3 +52,8 @@ HEADERS += \
     sensorsystem.h \
     speedcontroller.h \
     temperaturesensor.h
+
+DISTFILES += \
+    settings.ini
+
+DEFINES += PROJECT_DIR=\"$$PWD\"

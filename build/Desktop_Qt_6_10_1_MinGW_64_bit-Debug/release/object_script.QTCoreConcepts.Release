@@ -16,6 +16,7 @@ release/propertydemo.o
 release/propmeta.o
 release/qtypes.o
 release/sender.o
+release/settings.o
 release/signaldemo.o
 release/signalslotsintegrate.o
 release/speedmain.o

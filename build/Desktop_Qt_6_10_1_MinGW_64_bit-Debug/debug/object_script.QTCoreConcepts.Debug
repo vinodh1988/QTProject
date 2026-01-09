@@ -16,6 +16,7 @@ debug/propertydemo.o
 debug/propmeta.o
 debug/qtypes.o
 debug/sender.o
+debug/settings.o
 debug/signaldemo.o
 debug/signalslotsintegrate.o
 debug/speedmain.o
