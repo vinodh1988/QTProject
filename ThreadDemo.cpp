@@ -2,7 +2,7 @@
 #include <QThread>
 #include <QDebug>
 #include "workers.h"
-
+/*
 int main(int argc, char *argv[])
 {
     QCoreApplication app(argc, argv);
@@ -29,4 +29,4 @@ int main(int argc, char *argv[])
     workerThread.start(); // a signal call QThread:started will occure
 
     return app.exec();
-}
+}*/

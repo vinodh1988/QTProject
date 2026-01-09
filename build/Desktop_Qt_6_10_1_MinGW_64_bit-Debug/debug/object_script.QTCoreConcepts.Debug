@@ -13,6 +13,7 @@ debug/librarycaller.o
 debug/logs.o
 debug/main.o
 debug/memory.o
+debug/multithreadedjobs.o
 debug/propertydemo.o
 debug/propmeta.o
 debug/qfileread.o
@@ -39,4 +40,5 @@ debug/moc_sender.o
 debug/moc_sensorsystem.o
 debug/moc_speedcontroller.o
 debug/moc_temperaturesensor.o
+debug/moc_threadsources.o
 debug/moc_workers.o

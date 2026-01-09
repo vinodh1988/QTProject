@@ -22,6 +22,7 @@ SOURCES += \
         logs.cpp \
         main.cpp \
         memory.cpp \
+        multithreadedjobs.cpp \
         propertydemo.cpp \
         propmeta.cpp \
         qfileread.cpp \
@@ -58,6 +59,7 @@ HEADERS += \
     sensorsystem.h \
     speedcontroller.h \
     temperaturesensor.h \
+    threadsources.h \
     workers.h
 
 DISTFILES += \

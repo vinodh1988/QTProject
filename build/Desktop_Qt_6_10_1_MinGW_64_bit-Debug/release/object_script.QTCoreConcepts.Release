@@ -13,6 +13,7 @@ release/librarycaller.o
 release/logs.o
 release/main.o
 release/memory.o
+release/multithreadedjobs.o
 release/propertydemo.o
 release/propmeta.o
 release/qfileread.o
@@ -39,4 +40,5 @@ release/moc_sender.o
 release/moc_sensorsystem.o
 release/moc_speedcontroller.o
 release/moc_temperaturesensor.o
+release/moc_threadsources.o
 release/moc_workers.o
