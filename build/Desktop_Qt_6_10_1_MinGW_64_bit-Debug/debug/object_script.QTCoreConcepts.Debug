@@ -17,6 +17,7 @@ debug/propmeta.o
 debug/qfileread.o
 debug/qfilewrite.o
 debug/qtypes.o
+debug/regularexp.o
 debug/sender.o
 debug/settings.o
 debug/signaldemo.o

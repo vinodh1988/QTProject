@@ -26,6 +26,7 @@ SOURCES += \
         qfileread.cpp \
         qfilewrite.cpp \
         qtypes.cpp \
+        regularexp.cpp \
         sender.cpp \
         settings.cpp \
         signaldemo.cpp \

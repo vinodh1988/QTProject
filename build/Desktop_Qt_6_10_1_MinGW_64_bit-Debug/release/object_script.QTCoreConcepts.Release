@@ -17,6 +17,7 @@ release/propmeta.o
 release/qfileread.o
 release/qfilewrite.o
 release/qtypes.o
+release/regularexp.o
 release/sender.o
 release/settings.o
 release/signaldemo.o
