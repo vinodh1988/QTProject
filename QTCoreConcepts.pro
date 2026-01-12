@@ -31,6 +31,7 @@ SOURCES += \
         qtjson.cpp \
         qtypes.cpp \
         regularexp.cpp \
+        restothreadmutex.cpp \
         sender.cpp \
         settings.cpp \
         signaldemo.cpp \
@@ -57,6 +58,7 @@ HEADERS += \
     objectprocess.h \
     operations.h \
     plain.h \
+    restaurant.h \
     sender.h \
     sensorsystem.h \
     speedcontroller.h \

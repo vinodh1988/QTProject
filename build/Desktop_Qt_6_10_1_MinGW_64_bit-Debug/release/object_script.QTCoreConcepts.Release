@@ -22,6 +22,7 @@ release/qfilewrite.o
 release/qtjson.o
 release/qtypes.o
 release/regularexp.o
+release/restothreadmutex.o
 release/sender.o
 release/settings.o
 release/signaldemo.o
@@ -38,6 +39,7 @@ release/moc_events.o
 release/moc_messagecontroller.o
 release/moc_metaclass.o
 release/moc_metricexpose.o
+release/moc_restaurant.o
 release/moc_sender.o
 release/moc_sensorsystem.o
 release/moc_speedcontroller.o

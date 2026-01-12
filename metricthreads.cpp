@@ -6,7 +6,7 @@
 #include <QFont>
 
 #include "metricexpose.h"
-
+/*
 int main(int argc, char *argv[])
 {
     QApplication app(argc, argv);
@@ -68,4 +68,4 @@ int main(int argc, char *argv[])
 
     return app.exec();
 }
-
+*/

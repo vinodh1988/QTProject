@@ -22,6 +22,7 @@ debug/qfilewrite.o
 debug/qtjson.o
 debug/qtypes.o
 debug/regularexp.o
+debug/restothreadmutex.o
 debug/sender.o
 debug/settings.o
 debug/signaldemo.o
@@ -38,6 +39,7 @@ debug/moc_events.o
 debug/moc_messagecontroller.o
 debug/moc_metaclass.o
 debug/moc_metricexpose.o
+debug/moc_restaurant.o
 debug/moc_sender.o
 debug/moc_sensorsystem.o
 debug/moc_speedcontroller.o
