@@ -8,16 +8,19 @@ CONFIG += c++17 cmdline
 
 SOURCES += \
         Containers.cpp \
+        Interviewprocess.cpp \
         MetaCall.cpp \
         MetaDemo.cpp \
         MoreContainerConcepts.cpp \
         ThreadDemo.cpp \
         blockingvsnonblocking.cpp \
         broadcastdemo.cpp \
+        candidatethread.cpp \
         car.cpp \
         controller.cpp \
         eventexample.cpp \
         firstui.cpp \
+        interviewui.cpp \
         librarycaller.cpp \
         logs.cpp \
         main.cpp \
@@ -48,10 +51,12 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 HEADERS += \
     broadcast.h \
     buttonheader.h \
+    candidatethread.h \
     car.h \
     controller.h \
     device.h \
     events.h \
+    interviewui.h \
     messagecontroller.h \
     metaclass.h \
     metricexpose.h \
