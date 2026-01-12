@@ -2,7 +2,7 @@
 #include <QThread>
 #include <QDebug>
 #include "threadsources.h"
-
+/*
 int main(int argc, char *argv[])
 {
     QCoreApplication app(argc, argv);
@@ -60,4 +60,4 @@ int main(int argc, char *argv[])
     reviewerThread.start();
 
     return app.exec();
-}
+}*/

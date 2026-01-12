@@ -22,6 +22,7 @@ SOURCES += \
         logs.cpp \
         main.cpp \
         memory.cpp \
+        metricthreads.cpp \
         multithreadedjobs.cpp \
         propertydemo.cpp \
         propmeta.cpp \
@@ -52,6 +53,7 @@ HEADERS += \
     events.h \
     messagecontroller.h \
     metaclass.h \
+    metricexpose.h \
     objectprocess.h \
     operations.h \
     plain.h \

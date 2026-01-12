@@ -13,6 +13,7 @@ release/librarycaller.o
 release/logs.o
 release/main.o
 release/memory.o
+release/metricthreads.o
 release/multithreadedjobs.o
 release/propertydemo.o
 release/propmeta.o
@@ -36,6 +37,7 @@ release/moc_device.o
 release/moc_events.o
 release/moc_messagecontroller.o
 release/moc_metaclass.o
+release/moc_metricexpose.o
 release/moc_sender.o
 release/moc_sensorsystem.o
 release/moc_speedcontroller.o
