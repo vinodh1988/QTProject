@@ -1,4 +1,4 @@
-QT += core widgets
+QT += core widgets sql
 
 CONFIG += c++17 cmdline
 
@@ -18,6 +18,7 @@ SOURCES += \
         candidatethread.cpp \
         car.cpp \
         controller.cpp \
+        database.cpp \
         eventexample.cpp \
         firstui.cpp \
         interviewui.cpp \

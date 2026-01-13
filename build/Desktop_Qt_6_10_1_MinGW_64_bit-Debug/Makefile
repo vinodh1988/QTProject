@@ -307,6 +307,7 @@ Makefile: ../../QTCoreConcepts.pro ../../../../QT/6.10.1/mingw_64/mkspecs/win32-
 		../../QTCoreConcepts.pro \
 		../../../../QT/6.10.1/mingw_64/lib/Qt6Widgets.prl \
 		../../../../QT/6.10.1/mingw_64/lib/Qt6Gui.prl \
+		../../../../QT/6.10.1/mingw_64/lib/Qt6Sql.prl \
 		../../../../QT/6.10.1/mingw_64/lib/Qt6Core.prl \
 		../../../../QT/6.10.1/mingw_64/mkspecs/features/build_pass.prf
 	$(QMAKE) -o Makefile ..\..\QTCoreConcepts.pro -spec win32-g++ "CONFIG+=debug" "CONFIG+=qml_debug"
@@ -547,6 +548,7 @@ Makefile: ../../QTCoreConcepts.pro ../../../../QT/6.10.1/mingw_64/mkspecs/win32-
 ../../QTCoreConcepts.pro:
 ../../../../QT/6.10.1/mingw_64/lib/Qt6Widgets.prl:
 ../../../../QT/6.10.1/mingw_64/lib/Qt6Gui.prl:
+../../../../QT/6.10.1/mingw_64/lib/Qt6Sql.prl:
 ../../../../QT/6.10.1/mingw_64/lib/Qt6Core.prl:
 ../../../../QT/6.10.1/mingw_64/mkspecs/features/build_pass.prf:
 qmake: FORCE

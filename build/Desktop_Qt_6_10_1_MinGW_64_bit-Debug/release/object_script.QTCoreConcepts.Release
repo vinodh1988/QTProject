@@ -9,6 +9,7 @@ release/broadcastdemo.o
 release/candidatethread.o
 release/car.o
 release/controller.o
+release/database.o
 release/eventexample.o
 release/firstui.o
 release/interviewui.o

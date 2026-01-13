@@ -9,6 +9,7 @@ debug/broadcastdemo.o
 debug/candidatethread.o
 debug/car.o
 debug/controller.o
+debug/database.o
 debug/eventexample.o
 debug/firstui.o
 debug/interviewui.o
