@@ -30,6 +30,7 @@ release/qtjson.o
 release/qtypes.o
 release/regularexp.o
 release/restothreadmutex.o
+release/selflist.o
 release/sender.o
 release/settings.o
 release/signaldemo.o

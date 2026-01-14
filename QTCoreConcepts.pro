@@ -39,6 +39,7 @@ SOURCES += \
         qtypes.cpp \
         regularexp.cpp \
         restothreadmutex.cpp \
+        selflist.cpp \
         sender.cpp \
         settings.cpp \
         signaldemo.cpp \
