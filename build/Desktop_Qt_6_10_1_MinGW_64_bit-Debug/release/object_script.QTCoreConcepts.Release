@@ -33,6 +33,7 @@ release/settings.o
 release/signaldemo.o
 release/signalslotsintegrate.o
 release/speedmain.o
+release/threetasks.o
 release/timermain.o
 release/xmlread.o
 release/moc_broadcast.o

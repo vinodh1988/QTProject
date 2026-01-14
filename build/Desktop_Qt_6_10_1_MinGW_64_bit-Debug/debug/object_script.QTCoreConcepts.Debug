@@ -33,6 +33,7 @@ debug/settings.o
 debug/signaldemo.o
 debug/signalslotsintegrate.o
 debug/speedmain.o
+debug/threetasks.o
 debug/timermain.o
 debug/xmlread.o
 debug/moc_broadcast.o

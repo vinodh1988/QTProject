@@ -3,6 +3,7 @@
 #include <QDebug>
 #include <QtConcurrent/QtConcurrent>
 
+/*
 // Task 1 function
 void task1() {
     for (int i = 0; i < 5; ++i) {
@@ -34,3 +35,4 @@ int main(int argc, char *argv[]) {
 
     return 0;
 }
+*/
