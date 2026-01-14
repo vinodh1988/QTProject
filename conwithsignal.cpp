@@ -4,26 +4,17 @@
 #include <QLabel>
 #include <QVBoxLayout>
 #include <QtConcurrent/QtConcurrent>
-#include <QFuture>
 #include <QFutureWatcher>
-/*
-// Heavy computation function
-long long heavyCalculation()
-{
-    long long sum = 0;
-    for (long long i = 1; i <= 100000000; ++i)
-    {
-        sum += i;
-    }
-    return sum;
-} // in case of signal and slot mechanism normal function cannot be run asynchronously it has to qobject subclass member function
+#include <QObject>
+#include <QThread>
+#include <calculator.h>
 
 int main(int argc, char *argv[])
 {
     QApplication app(argc, argv);
 
     QWidget window;
-    window.setWindowTitle("QtConcurrent::run Demo");
+    window.setWindowTitle("QtConcurrent Progress (Slowed)");
 
     QPushButton *startButton = new QPushButton("Start Calculation");
     QLabel *statusLabel = new QLabel("Status: Idle");
@@ -33,20 +24,36 @@ int main(int argc, char *argv[])
     layout->addWidget(statusLabel);
     window.setLayout(layout);
 
-    // Future watcher
-    QFutureWatcher<long long> *watcher = new QFutureWatcher<long long>(&window);
+    Calculator *calculator = new Calculator;
 
-    // Button click → start background task
+    QFutureWatcher<long long> *watcher =
+        new QFutureWatcher<long long>(&window);
+
+    // Progress updates (runs in UI thread)
+    QObject::connect(calculator, &Calculator::progress,
+                     [&](long long value)
+                     {
+                         statusLabel->setText(
+                             "Status: Processed " + QString::number(value));
+                     });
+
+    // Start computation
     QObject::connect(startButton, &QPushButton::clicked, [&]()
                      {
-                         statusLabel->setText("Status: Calculating...");
                          startButton->setEnabled(false);
+                         statusLabel->setText("Status: Calculating...");
 
-                         QFuture<long long> future = QtConcurrent::run(heavyCalculation);
+                         QFuture<long long> future =
+                             QtConcurrent::run([calculator]() {
+                             qDebug() << "this is calculated";
+                                 return calculator->calculate();
+                             }); // if you want to call a member function of Qobject sub type use this syntax to call by using qconcurrent
+
+
                          watcher->setFuture(future);
                      });
 
-    // When calculation finishes
+    // Completion
     QObject::connect(watcher, &QFutureWatcher<long long>::finished, [&]()
                      {
                          long long result = watcher->result();
@@ -54,9 +61,8 @@ int main(int argc, char *argv[])
                          startButton->setEnabled(true);
                      });
 
-    window.resize(300, 150);
+    window.resize(380, 160);
     window.show();
 
     return app.exec();
-}*/
-
+}

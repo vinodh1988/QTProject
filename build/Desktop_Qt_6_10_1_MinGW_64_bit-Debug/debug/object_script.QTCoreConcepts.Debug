@@ -11,6 +11,7 @@ debug/car.o
 debug/concurrent1.o
 debug/concurrentgraphic.o
 debug/controller.o
+debug/conwithsignal.o
 debug/database.o
 debug/eventexample.o
 debug/firstui.o
@@ -40,6 +41,7 @@ debug/timermain.o
 debug/xmlread.o
 debug/moc_broadcast.o
 debug/moc_buttonheader.o
+debug/moc_calculator.o
 debug/moc_candidatethread.o
 debug/moc_car.o
 debug/moc_controller.o

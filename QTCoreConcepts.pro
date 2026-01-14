@@ -20,6 +20,7 @@ SOURCES += \
         concurrent1.cpp \
         concurrentgraphic.cpp \
         controller.cpp \
+        conwithsignal.cpp \
         database.cpp \
         eventexample.cpp \
         firstui.cpp \
@@ -56,6 +57,7 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 HEADERS += \
     broadcast.h \
     buttonheader.h \
+    calculator.h \
     candidatethread.h \
     car.h \
     controller.h \

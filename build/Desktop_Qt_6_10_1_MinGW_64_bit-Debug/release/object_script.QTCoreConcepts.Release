@@ -11,6 +11,7 @@ release/car.o
 release/concurrent1.o
 release/concurrentgraphic.o
 release/controller.o
+release/conwithsignal.o
 release/database.o
 release/eventexample.o
 release/firstui.o
@@ -40,6 +41,7 @@ release/timermain.o
 release/xmlread.o
 release/moc_broadcast.o
 release/moc_buttonheader.o
+release/moc_calculator.o
 release/moc_candidatethread.o
 release/moc_car.o
 release/moc_controller.o
