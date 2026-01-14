@@ -11,15 +11,15 @@
 #include <QSqlError>
 #include <QFile>
 #include <QDebug>
-
+/*
 int main(int argc, char *argv[])
 {
     QApplication app(argc, argv);
-    /*
+
     qDebug() << "Available SQL drivers:";
     QStringList drivers = QSqlDatabase::drivers();
     foreach (const QString& driver, drivers)
-        qDebug() << driver;*/
+        qDebug() << driver;
 
 
     if (!QFile::exists("D:/qtdb.db")) {
@@ -104,3 +104,4 @@ int main(int argc, char *argv[])
     window.show();
     return app.exec();
 }
+*/

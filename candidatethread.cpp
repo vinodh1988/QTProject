@@ -1,4 +1,4 @@
-#include "CandidateThread.h"
+#include "candidatethread.h"
 
 void CandidateThread::run() {
     // Wait for an available room

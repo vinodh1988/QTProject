@@ -17,6 +17,7 @@ SOURCES += \
         broadcastdemo.cpp \
         candidatethread.cpp \
         car.cpp \
+        concurrent1.cpp \
         controller.cpp \
         database.cpp \
         eventexample.cpp \

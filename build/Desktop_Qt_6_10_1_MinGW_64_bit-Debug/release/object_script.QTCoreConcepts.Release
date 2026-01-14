@@ -8,6 +8,7 @@ release/blockingvsnonblocking.o
 release/broadcastdemo.o
 release/candidatethread.o
 release/car.o
+release/concurrent1.o
 release/controller.o
 release/database.o
 release/eventexample.o
