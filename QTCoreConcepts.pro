@@ -43,6 +43,7 @@ SOURCES += \
         signalslotsintegrate.cpp \
         speedmain.cpp \
         threetasks.cpp \
+        threetaskswithwatcher.cpp \
         timermain.cpp \
         xmlread.cpp
 

@@ -7,7 +7,7 @@
 #include <QFuture>
 #include <QFutureWatcher>
 #include <QDebug>
-/*
+
 // Function 1: Sum numbers, sleep every 10 iterations
 int sumWithSleep(const QList<int>& numbers) {
     int sum = 0;
@@ -48,25 +48,32 @@ int main(int argc, char *argv[])
 
     // Prepare data
     QList<int> numbers;
-    for (int i = 1; i <= 100; ++i) numbers << i; //1 to 100 numbers to list numbers
+    for (int i = 1; i <= 100; ++i) numbers << i;
 
     QStringList names = {"alice", "bob", "carol", "dave", "eve", "frank", "grace", "heidi", "ivan", "judy"};
 
-    // Run functions concurrently
-    QFuture<int> futureSum = QtConcurrent::run(sumWithSleep, numbers);
-    QFuture<QString> futureNames = QtConcurrent::run(upperNamesWithSleep, names);
-    QFuture<int> futureOddSum = QtConcurrent::run(sumOddWithSleep, numbers);
+    // Watchers
+    QFutureWatcher<int> watcherSum; //observer that looks for changes happening in an asynchronous task that is returning a future
+    QFutureWatcher<QString> watcherNames;
+    QFutureWatcher<int> watcherOddSum;
 
-    // Wait for results
-    futureSum.waitForFinished(); // blocking the flow
-    futureNames.waitForFinished();
-    futureOddSum.waitForFinished();
+    // Connect finished signals to lambdas
+    QObject::connect(&watcherSum, &QFutureWatcher<int>::finished, [&]() {
+        qDebug() << "Sum of numbers:" << watcherSum.result();
+    });
+    QObject::connect(&watcherNames, &QFutureWatcher<QString>::finished, [&]() {
+        qDebug() << "Uppercase names:" << watcherNames.result();
+    });
+    QObject::connect(&watcherOddSum, &QFutureWatcher<int>::finished, [&]() {
+        qDebug() << "Sum of odd numbers:" << watcherOddSum.result();
+        // Quit after all tasks (assuming this is the last to finish)
+        a.quit();
+    });
 
-    // Get results
-    qDebug() << "Sum of numbers:" << futureSum.result();
-    qDebug() << "Uppercase names:" << futureNames.result();
-    qDebug() << "Sum of odd numbers:" << futureOddSum.result();
+    // Start concurrent tasks
+    watcherSum.setFuture(QtConcurrent::run(sumWithSleep, numbers));
+    watcherNames.setFuture(QtConcurrent::run(upperNamesWithSleep, names));
+    watcherOddSum.setFuture(QtConcurrent::run(sumOddWithSleep, numbers));
 
-    return 0;
+    return a.exec();
 }
-*/
