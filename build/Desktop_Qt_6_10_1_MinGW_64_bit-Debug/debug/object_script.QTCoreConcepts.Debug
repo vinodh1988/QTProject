@@ -9,6 +9,7 @@ debug/broadcastdemo.o
 debug/candidatethread.o
 debug/car.o
 debug/concurrent1.o
+debug/concurrentgraphic.o
 debug/controller.o
 debug/database.o
 debug/eventexample.o

@@ -7,7 +7,7 @@
 #include <QFuture>
 #include <QFutureWatcher>
 #include <QDebug>
-
+/*
 // Function 1: Sum numbers, sleep every 10 iterations
 int sumWithSleep(const QList<int>& numbers) {
     int sum = 0;
@@ -77,3 +77,4 @@ int main(int argc, char *argv[])
 
     return a.exec();
 }
+*/

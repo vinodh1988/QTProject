@@ -18,6 +18,7 @@ SOURCES += \
         candidatethread.cpp \
         car.cpp \
         concurrent1.cpp \
+        concurrentgraphic.cpp \
         controller.cpp \
         database.cpp \
         eventexample.cpp \
