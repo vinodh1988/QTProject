@@ -22,10 +22,10 @@ int main(int argc, char *argv[])
         qDebug() << driver;*/
 
 
-    if (!QFile::exists("D:/qt.db")) {
+    if (!QFile::exists("D:/qtdb.db")) {
         QMessageBox::critical(nullptr,
                               "Error",
-                              "Database file D:/qt.db not found");
+                              "Database file D:/qtdb.db not found");
         return -1;
     }
 
