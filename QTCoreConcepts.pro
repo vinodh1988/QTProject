@@ -15,6 +15,7 @@ SOURCES += \
         ThreadDemo.cpp \
         blockingvsnonblocking.cpp \
         broadcastdemo.cpp \
+        butterfly.cpp \
         candidatethread.cpp \
         car.cpp \
         concurrent1.cpp \

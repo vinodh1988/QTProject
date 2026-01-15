@@ -4,7 +4,7 @@
 #include <QFinalState>
 #include <QDebug>
 #include <QTimer>
-
+/*
 int main(int argc, char *argv[])
 {
     QCoreApplication a(argc, argv);
@@ -51,3 +51,4 @@ int main(int argc, char *argv[])
 
     return a.exec();
 }
+*/

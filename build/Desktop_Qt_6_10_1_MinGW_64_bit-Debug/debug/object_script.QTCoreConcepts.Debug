@@ -6,6 +6,7 @@ debug/MoreContainerConcepts.o
 debug/ThreadDemo.o
 debug/blockingvsnonblocking.o
 debug/broadcastdemo.o
+debug/butterfly.o
 debug/candidatethread.o
 debug/car.o
 debug/concurrent1.o
