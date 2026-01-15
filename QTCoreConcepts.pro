@@ -29,6 +29,7 @@ SOURCES += \
         logs.cpp \
         main.cpp \
         mapparallelism.cpp \
+        mappeddemo.cpp \
         mapsimple.cpp \
         memory.cpp \
         metricthreads.cpp \

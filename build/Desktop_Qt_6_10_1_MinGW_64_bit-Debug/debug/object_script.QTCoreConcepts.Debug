@@ -20,6 +20,7 @@ debug/librarycaller.o
 debug/logs.o
 debug/main.o
 debug/mapparallelism.o
+debug/mappeddemo.o
 debug/mapsimple.o
 debug/memory.o
 debug/metricthreads.o

@@ -3,7 +3,7 @@
 #include <QDebug>
 #include <QVector>
 #include <QThread>
-
+/*
 // Function to be applied to each element
 void square(int &x) {
     qDebug() << "Executed by" << QThread::currentThread() << " number processed is " << x;
@@ -24,3 +24,4 @@ int main(int argc, char *argv[]) {
     qDebug() << "After process" << numbers;
     return 0;
 }
+*/
