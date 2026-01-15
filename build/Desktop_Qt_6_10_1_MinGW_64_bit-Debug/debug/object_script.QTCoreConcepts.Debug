@@ -40,6 +40,7 @@ debug/settings.o
 debug/signaldemo.o
 debug/signalslotsintegrate.o
 debug/speedmain.o
+debug/statemachineexample.o
 debug/threetasks.o
 debug/threetaskswithwatcher.o
 debug/timermain.o

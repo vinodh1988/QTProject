@@ -323,6 +323,7 @@ Makefile: ../../QTCoreConcepts.pro ../../../../QT/6.10.1/mingw_64/mkspecs/win32-
 		../../../../QT/6.10.1/mingw_64/mkspecs/features/lex.prf \
 		../../QTCoreConcepts.pro \
 		../../../../QT/6.10.1/mingw_64/lib/Qt6Widgets.prl \
+		../../../../QT/6.10.1/mingw_64/lib/Qt6StateMachine.prl \
 		../../../../QT/6.10.1/mingw_64/lib/Qt6Gui.prl \
 		../../../../QT/6.10.1/mingw_64/lib/Qt6Sql.prl \
 		../../../../QT/6.10.1/mingw_64/lib/Qt6Concurrent.prl \
@@ -582,6 +583,7 @@ Makefile: ../../QTCoreConcepts.pro ../../../../QT/6.10.1/mingw_64/mkspecs/win32-
 ../../../../QT/6.10.1/mingw_64/mkspecs/features/lex.prf:
 ../../QTCoreConcepts.pro:
 ../../../../QT/6.10.1/mingw_64/lib/Qt6Widgets.prl:
+../../../../QT/6.10.1/mingw_64/lib/Qt6StateMachine.prl:
 ../../../../QT/6.10.1/mingw_64/lib/Qt6Gui.prl:
 ../../../../QT/6.10.1/mingw_64/lib/Qt6Sql.prl:
 ../../../../QT/6.10.1/mingw_64/lib/Qt6Concurrent.prl:

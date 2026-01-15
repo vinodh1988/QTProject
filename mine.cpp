@@ -8,7 +8,7 @@
 #include <QTextStream>
 #include <QVector>
 #include <QDebug>
-
+/*
 // ---------- Constants ----------
 const int TOTAL_MINERS = 100;
 const int MAX_MINERS_IN_MINE = 5;
@@ -121,3 +121,4 @@ int main(int argc, char *argv[])
 
     return 0;
 }
+*/

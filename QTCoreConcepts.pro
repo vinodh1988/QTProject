@@ -1,4 +1,4 @@
-QT += core widgets sql concurrent
+QT += core widgets sql concurrent statemachine
 
 CONFIG += c++17 cmdline
 
@@ -49,6 +49,7 @@ SOURCES += \
         signaldemo.cpp \
         signalslotsintegrate.cpp \
         speedmain.cpp \
+        statemachineexample.cpp \
         threetasks.cpp \
         threetaskswithwatcher.cpp \
         timermain.cpp \
