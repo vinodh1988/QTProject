@@ -34,7 +34,7 @@ int main(int argc, char *argv[])
     });
     QObject::connect(finalState, &QFinalState::entered, [&]() {
         qDebug() << "Entered Final State";
-        machine.stop();
+
 
     });
     QObject::connect(&machine, &QStateMachine::finished, []() {
