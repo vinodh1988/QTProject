@@ -19,6 +19,8 @@ release/interviewui.o
 release/librarycaller.o
 release/logs.o
 release/main.o
+release/mapparallelism.o
+release/mapsimple.o
 release/memory.o
 release/metricthreads.o
 release/multithreadedjobs.o

@@ -253,12 +253,29 @@ Makefile: ../../QTCoreConcepts.pro ../../../../QT/6.10.1/mingw_64/mkspecs/win32-
 		../../../../QT/6.10.1/mingw_64/mkspecs/modules/qt_lib_quickvectorimagehelpers_private.pri \
 		../../../../QT/6.10.1/mingw_64/mkspecs/modules/qt_lib_quickwidgets.pri \
 		../../../../QT/6.10.1/mingw_64/mkspecs/modules/qt_lib_quickwidgets_private.pri \
+		../../../../QT/6.10.1/mingw_64/mkspecs/modules/qt_lib_scxml.pri \
+		../../../../QT/6.10.1/mingw_64/mkspecs/modules/qt_lib_scxml_private.pri \
+		../../../../QT/6.10.1/mingw_64/mkspecs/modules/qt_lib_scxmlglobal_private.pri \
+		../../../../QT/6.10.1/mingw_64/mkspecs/modules/qt_lib_scxmlqml.pri \
+		../../../../QT/6.10.1/mingw_64/mkspecs/modules/qt_lib_scxmlqml_private.pri \
+		../../../../QT/6.10.1/mingw_64/mkspecs/modules/qt_lib_sensors.pri \
+		../../../../QT/6.10.1/mingw_64/mkspecs/modules/qt_lib_sensors_private.pri \
+		../../../../QT/6.10.1/mingw_64/mkspecs/modules/qt_lib_sensorsquick.pri \
+		../../../../QT/6.10.1/mingw_64/mkspecs/modules/qt_lib_sensorsquick_private.pri \
+		../../../../QT/6.10.1/mingw_64/mkspecs/modules/qt_lib_serialbus.pri \
+		../../../../QT/6.10.1/mingw_64/mkspecs/modules/qt_lib_serialbus_private.pri \
+		../../../../QT/6.10.1/mingw_64/mkspecs/modules/qt_lib_serialport.pri \
+		../../../../QT/6.10.1/mingw_64/mkspecs/modules/qt_lib_serialport_private.pri \
 		../../../../QT/6.10.1/mingw_64/mkspecs/modules/qt_lib_shadertools.pri \
 		../../../../QT/6.10.1/mingw_64/mkspecs/modules/qt_lib_shadertools_private.pri \
 		../../../../QT/6.10.1/mingw_64/mkspecs/modules/qt_lib_spatialaudio.pri \
 		../../../../QT/6.10.1/mingw_64/mkspecs/modules/qt_lib_spatialaudio_private.pri \
 		../../../../QT/6.10.1/mingw_64/mkspecs/modules/qt_lib_sql.pri \
 		../../../../QT/6.10.1/mingw_64/mkspecs/modules/qt_lib_sql_private.pri \
+		../../../../QT/6.10.1/mingw_64/mkspecs/modules/qt_lib_statemachine.pri \
+		../../../../QT/6.10.1/mingw_64/mkspecs/modules/qt_lib_statemachine_private.pri \
+		../../../../QT/6.10.1/mingw_64/mkspecs/modules/qt_lib_statemachineqml.pri \
+		../../../../QT/6.10.1/mingw_64/mkspecs/modules/qt_lib_statemachineqml_private.pri \
 		../../../../QT/6.10.1/mingw_64/mkspecs/modules/qt_lib_svg.pri \
 		../../../../QT/6.10.1/mingw_64/mkspecs/modules/qt_lib_svg_private.pri \
 		../../../../QT/6.10.1/mingw_64/mkspecs/modules/qt_lib_svgwidgets.pri \
@@ -308,6 +325,7 @@ Makefile: ../../QTCoreConcepts.pro ../../../../QT/6.10.1/mingw_64/mkspecs/win32-
 		../../../../QT/6.10.1/mingw_64/lib/Qt6Widgets.prl \
 		../../../../QT/6.10.1/mingw_64/lib/Qt6Gui.prl \
 		../../../../QT/6.10.1/mingw_64/lib/Qt6Sql.prl \
+		../../../../QT/6.10.1/mingw_64/lib/Qt6Concurrent.prl \
 		../../../../QT/6.10.1/mingw_64/lib/Qt6Core.prl \
 		../../../../QT/6.10.1/mingw_64/mkspecs/features/build_pass.prf
 	$(QMAKE) -o Makefile ..\..\QTCoreConcepts.pro -spec win32-g++ "CONFIG+=debug" "CONFIG+=qml_debug"
@@ -494,12 +512,29 @@ Makefile: ../../QTCoreConcepts.pro ../../../../QT/6.10.1/mingw_64/mkspecs/win32-
 ../../../../QT/6.10.1/mingw_64/mkspecs/modules/qt_lib_quickvectorimagehelpers_private.pri:
 ../../../../QT/6.10.1/mingw_64/mkspecs/modules/qt_lib_quickwidgets.pri:
 ../../../../QT/6.10.1/mingw_64/mkspecs/modules/qt_lib_quickwidgets_private.pri:
+../../../../QT/6.10.1/mingw_64/mkspecs/modules/qt_lib_scxml.pri:
+../../../../QT/6.10.1/mingw_64/mkspecs/modules/qt_lib_scxml_private.pri:
+../../../../QT/6.10.1/mingw_64/mkspecs/modules/qt_lib_scxmlglobal_private.pri:
+../../../../QT/6.10.1/mingw_64/mkspecs/modules/qt_lib_scxmlqml.pri:
+../../../../QT/6.10.1/mingw_64/mkspecs/modules/qt_lib_scxmlqml_private.pri:
+../../../../QT/6.10.1/mingw_64/mkspecs/modules/qt_lib_sensors.pri:
+../../../../QT/6.10.1/mingw_64/mkspecs/modules/qt_lib_sensors_private.pri:
+../../../../QT/6.10.1/mingw_64/mkspecs/modules/qt_lib_sensorsquick.pri:
+../../../../QT/6.10.1/mingw_64/mkspecs/modules/qt_lib_sensorsquick_private.pri:
+../../../../QT/6.10.1/mingw_64/mkspecs/modules/qt_lib_serialbus.pri:
+../../../../QT/6.10.1/mingw_64/mkspecs/modules/qt_lib_serialbus_private.pri:
+../../../../QT/6.10.1/mingw_64/mkspecs/modules/qt_lib_serialport.pri:
+../../../../QT/6.10.1/mingw_64/mkspecs/modules/qt_lib_serialport_private.pri:
 ../../../../QT/6.10.1/mingw_64/mkspecs/modules/qt_lib_shadertools.pri:
 ../../../../QT/6.10.1/mingw_64/mkspecs/modules/qt_lib_shadertools_private.pri:
 ../../../../QT/6.10.1/mingw_64/mkspecs/modules/qt_lib_spatialaudio.pri:
 ../../../../QT/6.10.1/mingw_64/mkspecs/modules/qt_lib_spatialaudio_private.pri:
 ../../../../QT/6.10.1/mingw_64/mkspecs/modules/qt_lib_sql.pri:
 ../../../../QT/6.10.1/mingw_64/mkspecs/modules/qt_lib_sql_private.pri:
+../../../../QT/6.10.1/mingw_64/mkspecs/modules/qt_lib_statemachine.pri:
+../../../../QT/6.10.1/mingw_64/mkspecs/modules/qt_lib_statemachine_private.pri:
+../../../../QT/6.10.1/mingw_64/mkspecs/modules/qt_lib_statemachineqml.pri:
+../../../../QT/6.10.1/mingw_64/mkspecs/modules/qt_lib_statemachineqml_private.pri:
 ../../../../QT/6.10.1/mingw_64/mkspecs/modules/qt_lib_svg.pri:
 ../../../../QT/6.10.1/mingw_64/mkspecs/modules/qt_lib_svg_private.pri:
 ../../../../QT/6.10.1/mingw_64/mkspecs/modules/qt_lib_svgwidgets.pri:
@@ -549,6 +584,7 @@ Makefile: ../../QTCoreConcepts.pro ../../../../QT/6.10.1/mingw_64/mkspecs/win32-
 ../../../../QT/6.10.1/mingw_64/lib/Qt6Widgets.prl:
 ../../../../QT/6.10.1/mingw_64/lib/Qt6Gui.prl:
 ../../../../QT/6.10.1/mingw_64/lib/Qt6Sql.prl:
+../../../../QT/6.10.1/mingw_64/lib/Qt6Concurrent.prl:
 ../../../../QT/6.10.1/mingw_64/lib/Qt6Core.prl:
 ../../../../QT/6.10.1/mingw_64/mkspecs/features/build_pass.prf:
 qmake: FORCE

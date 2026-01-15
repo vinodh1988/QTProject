@@ -5,7 +5,7 @@
 #include <QThread>
 
 
-
+/*
 int square(int x) {
     qDebug() << x << " is processed in square" << QThread::currentThread();
     return x*x;
@@ -57,3 +57,4 @@ QList<int> myfilter(QList<int>* list, std::function<bool(int)> callback) {
 
 
     }
+*/

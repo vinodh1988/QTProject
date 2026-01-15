@@ -1,4 +1,4 @@
-QT += core widgets sql
+QT += core widgets sql concurrent
 
 CONFIG += c++17 cmdline
 
@@ -28,6 +28,8 @@ SOURCES += \
         librarycaller.cpp \
         logs.cpp \
         main.cpp \
+        mapparallelism.cpp \
+        mapsimple.cpp \
         memory.cpp \
         metricthreads.cpp \
         multithreadedjobs.cpp \

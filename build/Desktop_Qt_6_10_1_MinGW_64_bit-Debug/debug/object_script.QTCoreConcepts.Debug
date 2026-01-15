@@ -19,6 +19,8 @@ debug/interviewui.o
 debug/librarycaller.o
 debug/logs.o
 debug/main.o
+debug/mapparallelism.o
+debug/mapsimple.o
 debug/memory.o
 debug/metricthreads.o
 debug/multithreadedjobs.o
