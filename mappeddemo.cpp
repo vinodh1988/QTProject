@@ -1,7 +1,7 @@
 #include <QtCore>
 #include <QtConcurrent/QtConcurrent>
 #include <functional>
-
+/*
 // The map function must take a single argument (const reference to an item in the input sequence)
 // and return the new result type. It should be a free function, static member function,
 // or a lambda function without captures for direct use with QtConcurrent::mapped().
@@ -38,3 +38,4 @@ int main(int argc, char *argv[]) {
 
     return 0;
 }
+*/

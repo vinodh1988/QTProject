@@ -24,6 +24,7 @@ release/mappeddemo.o
 release/mapsimple.o
 release/memory.o
 release/metricthreads.o
+release/mine.o
 release/multithreadedjobs.o
 release/propertydemo.o
 release/propmeta.o

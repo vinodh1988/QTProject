@@ -33,6 +33,7 @@ SOURCES += \
         mapsimple.cpp \
         memory.cpp \
         metricthreads.cpp \
+        mine.cpp \
         multithreadedjobs.cpp \
         propertydemo.cpp \
         propmeta.cpp \

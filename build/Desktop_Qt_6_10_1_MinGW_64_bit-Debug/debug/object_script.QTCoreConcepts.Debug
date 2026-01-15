@@ -24,6 +24,7 @@ debug/mappeddemo.o
 debug/mapsimple.o
 debug/memory.o
 debug/metricthreads.o
+debug/mine.o
 debug/multithreadedjobs.o
 debug/propertydemo.o
 debug/propmeta.o
