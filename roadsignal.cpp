@@ -6,6 +6,7 @@
 #include <QState>
 #include <QTimer>
 // Helper function to create a light
+/*
 QLabel* createLight(const QString& color)
 {
     QLabel *label = new QLabel;
@@ -86,3 +87,4 @@ int main(int argc, char *argv[])
 
     return app.exec();
 }
+*/

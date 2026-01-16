@@ -28,6 +28,7 @@ release/metricthreads.o
 release/mine.o
 release/multithreadedjobs.o
 release/propertydemo.o
+release/propertyset.o
 release/propmeta.o
 release/qfileread.o
 release/qfilewrite.o

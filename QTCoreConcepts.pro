@@ -37,6 +37,7 @@ SOURCES += \
         mine.cpp \
         multithreadedjobs.cpp \
         propertydemo.cpp \
+        propertyset.cpp \
         propmeta.cpp \
         qfileread.cpp \
         qfilewrite.cpp \

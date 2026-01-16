@@ -28,6 +28,7 @@ debug/metricthreads.o
 debug/mine.o
 debug/multithreadedjobs.o
 debug/propertydemo.o
+debug/propertyset.o
 debug/propmeta.o
 debug/qfileread.o
 debug/qfilewrite.o
