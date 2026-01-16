@@ -33,6 +33,7 @@ SOURCES += \
         mappeddemo.cpp \
         mapsimple.cpp \
         memory.cpp \
+        messageprocessor.cpp \
         metricthreads.cpp \
         mine.cpp \
         multithreadedjobs.cpp \
@@ -75,6 +76,7 @@ HEADERS += \
     interviewui.h \
     messagecontroller.h \
     messageholder.h \
+    messagewindow.h \
     metaclass.h \
     metricexpose.h \
     objectprocess.h \

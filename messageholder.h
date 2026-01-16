@@ -27,11 +27,15 @@ public:
     {
         if (m_queue.isEmpty())
             return "Queue is empty";
-        return m_queue.dequeue();
-    }
+        return m_queue.dequeue(); //removes the front message and returns
+    } // read is going to be used state machine for processing
+
+    int qsize() {
+        return m_queue.size(); // it returns size of the queue
+    } // to print queue size this is used
 
 signals:
-    void messagecreated(const QString &message);
+    void messagecreated(const QString &message); // this is used to update queuesize
 
 private slots:
     void messageProducer()
@@ -53,6 +57,7 @@ private:
         int interval = QRandomGenerator::global()->bounded(1000, 3000); // 1-3 seconds
         m_timer.start(interval);
     }
+
 };
 
 #endif // MESSAGEHOLDER_H

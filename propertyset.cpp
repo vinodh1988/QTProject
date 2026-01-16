@@ -5,7 +5,7 @@
 #include <QLabel>
 #include <QStateMachine>
 #include <QState>
-
+/*
 int main(int argc, char *argv[])
 {
     QApplication app(argc, argv);
@@ -49,3 +49,4 @@ int main(int argc, char *argv[])
 
     return app.exec();
 }
+*/

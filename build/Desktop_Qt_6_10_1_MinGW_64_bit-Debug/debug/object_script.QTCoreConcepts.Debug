@@ -24,6 +24,7 @@ debug/mapparallelism.o
 debug/mappeddemo.o
 debug/mapsimple.o
 debug/memory.o
+debug/messageprocessor.o
 debug/metricthreads.o
 debug/mine.o
 debug/multithreadedjobs.o
@@ -58,6 +59,8 @@ debug/moc_device.o
 debug/moc_events.o
 debug/moc_interviewui.o
 debug/moc_messagecontroller.o
+debug/moc_messageholder.o
+debug/moc_messagewindow.o
 debug/moc_metaclass.o
 debug/moc_metricexpose.o
 debug/moc_restaurant.o

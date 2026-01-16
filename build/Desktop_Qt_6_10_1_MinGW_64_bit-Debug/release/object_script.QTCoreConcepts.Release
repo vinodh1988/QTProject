@@ -24,6 +24,7 @@ release/mapparallelism.o
 release/mappeddemo.o
 release/mapsimple.o
 release/memory.o
+release/messageprocessor.o
 release/metricthreads.o
 release/mine.o
 release/multithreadedjobs.o
@@ -58,6 +59,8 @@ release/moc_device.o
 release/moc_events.o
 release/moc_interviewui.o
 release/moc_messagecontroller.o
+release/moc_messageholder.o
+release/moc_messagewindow.o
 release/moc_metaclass.o
 release/moc_metricexpose.o
 release/moc_restaurant.o
