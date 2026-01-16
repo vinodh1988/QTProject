@@ -43,6 +43,7 @@ SOURCES += \
         propmeta.cpp \
         qfileread.cpp \
         qfilewrite.cpp \
+        qhistorystatedemo.cpp \
         qtjson.cpp \
         qtypes.cpp \
         regularexp.cpp \
