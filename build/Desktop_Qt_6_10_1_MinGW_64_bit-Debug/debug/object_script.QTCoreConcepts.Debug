@@ -35,6 +35,7 @@ debug/qtjson.o
 debug/qtypes.o
 debug/regularexp.o
 debug/restothreadmutex.o
+debug/roadsignal.o
 debug/selflist.o
 debug/sender.o
 debug/settings.o

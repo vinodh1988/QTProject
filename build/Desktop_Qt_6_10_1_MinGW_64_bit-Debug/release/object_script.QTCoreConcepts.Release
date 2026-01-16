@@ -35,6 +35,7 @@ release/qtjson.o
 release/qtypes.o
 release/regularexp.o
 release/restothreadmutex.o
+release/roadsignal.o
 release/selflist.o
 release/sender.o
 release/settings.o

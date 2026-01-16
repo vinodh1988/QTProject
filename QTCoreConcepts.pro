@@ -44,6 +44,7 @@ SOURCES += \
         qtypes.cpp \
         regularexp.cpp \
         restothreadmutex.cpp \
+        roadsignal.cpp \
         selflist.cpp \
         sender.cpp \
         settings.cpp \

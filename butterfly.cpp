@@ -6,7 +6,7 @@
 #include <QState>
 #include <QTimer>
 #include <QFont>
-
+/*
 int main(int argc, char *argv[])
 {
     QApplication app(argc, argv);
@@ -80,3 +80,4 @@ int main(int argc, char *argv[])
 
     return app.exec();
 }
+*/
