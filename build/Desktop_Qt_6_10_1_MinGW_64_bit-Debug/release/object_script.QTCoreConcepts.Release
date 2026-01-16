@@ -15,6 +15,7 @@ release/controller.o
 release/conwithsignal.o
 release/database.o
 release/eventexample.o
+release/finalstatedemo.o
 release/firstui.o
 release/interviewui.o
 release/librarycaller.o

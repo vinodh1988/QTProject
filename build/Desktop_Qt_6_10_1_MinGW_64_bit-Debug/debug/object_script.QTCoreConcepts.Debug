@@ -15,6 +15,7 @@ debug/controller.o
 debug/conwithsignal.o
 debug/database.o
 debug/eventexample.o
+debug/finalstatedemo.o
 debug/firstui.o
 debug/interviewui.o
 debug/librarycaller.o

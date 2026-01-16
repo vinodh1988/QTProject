@@ -24,6 +24,7 @@ SOURCES += \
         conwithsignal.cpp \
         database.cpp \
         eventexample.cpp \
+        finalstatedemo.cpp \
         firstui.cpp \
         interviewui.cpp \
         librarycaller.cpp \
