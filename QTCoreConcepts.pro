@@ -74,6 +74,7 @@ HEADERS += \
     events.h \
     interviewui.h \
     messagecontroller.h \
+    messageholder.h \
     metaclass.h \
     metricexpose.h \
     objectprocess.h \
