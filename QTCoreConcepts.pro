@@ -38,6 +38,8 @@ SOURCES += \
         metricthreads.cpp \
         mine.cpp \
         multithreadedjobs.cpp \
+        musicplayer.cpp \
+        musicplayerwindow.cpp \
         propertydemo.cpp \
         propertyset.cpp \
         propmeta.cpp \
@@ -81,6 +83,7 @@ HEADERS += \
     messagewindow.h \
     metaclass.h \
     metricexpose.h \
+    musicplayerwindow.h \
     objectprocess.h \
     operations.h \
     plain.h \

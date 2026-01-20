@@ -6,7 +6,7 @@
 #include <QStateMachine>
 #include <QState>
 #include <QHistoryState>
-
+/*
 int main(int argc, char *argv[])
 {
     QApplication app(argc, argv);
@@ -114,4 +114,4 @@ int main(int argc, char *argv[])
     window.show();
 
     return app.exec();
-}
+}*/

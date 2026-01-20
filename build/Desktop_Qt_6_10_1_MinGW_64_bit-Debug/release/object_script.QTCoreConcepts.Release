@@ -29,6 +29,8 @@ release/messageprocessor.o
 release/metricthreads.o
 release/mine.o
 release/multithreadedjobs.o
+release/musicplayer.o
+release/musicplayerwindow.o
 release/propertydemo.o
 release/propertyset.o
 release/propmeta.o
@@ -65,6 +67,7 @@ release/moc_messageholder.o
 release/moc_messagewindow.o
 release/moc_metaclass.o
 release/moc_metricexpose.o
+release/moc_musicplayerwindow.o
 release/moc_restaurant.o
 release/moc_sender.o
 release/moc_sensorsystem.o

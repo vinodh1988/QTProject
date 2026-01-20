@@ -29,6 +29,8 @@ debug/messageprocessor.o
 debug/metricthreads.o
 debug/mine.o
 debug/multithreadedjobs.o
+debug/musicplayer.o
+debug/musicplayerwindow.o
 debug/propertydemo.o
 debug/propertyset.o
 debug/propmeta.o
@@ -65,6 +67,7 @@ debug/moc_messageholder.o
 debug/moc_messagewindow.o
 debug/moc_metaclass.o
 debug/moc_metricexpose.o
+debug/moc_musicplayerwindow.o
 debug/moc_restaurant.o
 debug/moc_sender.o
 debug/moc_sensorsystem.o
